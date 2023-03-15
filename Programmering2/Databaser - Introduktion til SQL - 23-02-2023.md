@@ -6,9 +6,9 @@
 
 # Materialer
 
-[SQL Tutorial](Databaser%20-%20Introduktion%20til%20SQL%20-%2023-02-2023%201324be59a18b49419052db32904a5052/SQL%20Tutorial%2076e2a12128cb47c9b6b1e7b51f1d4e31.md)
+[SQL Tutorial](https://github.com/Teller501/KEA_Notesbog/blob/main/Programmering2/Materialer/SQL%20Tutorial%2076e2a12128cb47c9b6b1e7b51f1d4e31.md)
 
-![Databaser%20-%20Introduktion%20til%20SQL%20-%2023-02-2023%201324be59a18b49419052db32904a5052/Rectangle_234red_round_shadow.png](Databaser%20-%20Introduktion%20til%20SQL%20-%2023-02-2023%201324be59a18b49419052db32904a5052/Rectangle_234red_round_shadow.png)
+---
 
 # Intro til SQL
 
