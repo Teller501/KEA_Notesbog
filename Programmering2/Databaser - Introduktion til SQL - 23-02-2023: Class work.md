@@ -9,7 +9,7 @@ Type: Klasseundervisning
 
 ## Script
 
-[emp_dept.sql](Databaser%20-%20Introduktion%20til%20SQL%20-%2023-02-2023%20Clas%208679e6083cbe416e8eab058829acd610/emp_dept.sql)
+[emp_dept.sql](https://github.com/Teller501/KEA_Notesbog/blob/main/Programmering2/Materialer/emp_dept.sql)
 
 ## Database
 
