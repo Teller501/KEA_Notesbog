@@ -1,9 +1,8 @@
 # Databaser - Introduktion til SQL - 23-02-2023: Class work
 
-Fag: Programmering 2
-Oprettet: February 27, 2023 3:18 PM
-Reviewed: No
-Type: Klasseundervisning
+- **Fag:** Programmering 2
+- **Oprettet:** February 27, 2023 3:18 PM
+- **Type:** Klasseundervisning
 
 # Opgaver i undervisning
 
