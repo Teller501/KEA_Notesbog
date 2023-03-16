@@ -6,7 +6,7 @@
 
 # Materialer
 
-[SQL Tutorial](Databaser%20-%20SQL%202%20-%2028-02-2023%20f6552b67a64b41428239d8cbd3316568/SQL%20Tutorial%209c431b873272445d8fec6ea3fde048f1.md)
+[SQL Tutorial](https://github.com/Teller501/KEA_Notesbog/blob/main/Programmering2/Materialer/SQL%20Tutorial%209c431b873272445d8fec6ea3fde048f1.md)
 
 
 # SQL 2
