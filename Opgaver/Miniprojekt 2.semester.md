@@ -81,8 +81,8 @@ CONTRIBUTE.md-filen er en vigtig del af ethvert open source-projekt, da den give
 
 You can create Entity-Relationship (ER) diagrams using Mermaid syntax in Markdown files. Here's how you can do it:
 
-1. First, you need to have the Mermaid library installed. You can either install it locally on your computer or use a CDN link in your Markdown file. You can find installation instructions on the Mermaid website: **[https://mermaid-js.github.io/mermaid/#/installation](https://mermaid-js.github.io/mermaid/#/installation)**
-2. In your Markdown file, create a code block and set the language to "mermaid". You can use the following syntax to create an ER diagram:
+1. Først skal du have Mermaid-biblioteket installeret. Du kan enten installere det lokalt på din computer eller bruge et CDN-link i din Markdown-fil. Du kan finde installationsvejledninger på Mermaid-webstedet: **[https://mermaid-js.github.io/mermaid/#/installation](https://mermaid-js.github.io/mermaid/#/installation)**
+2. I din Markdown-fil opretter du en kodeblok og indstiller sproget til "mermaid". Du kan bruge følgende syntaks til at oprette et ER-diagram:
     
     ```mermaid
     erDiagram
@@ -92,7 +92,7 @@ You can create Entity-Relationship (ER) diagrams using Mermaid syntax in Markdow
        CUSTOMER }|--|{ DELIVERY-ADDRESS : uses
     ```
     
-3. You can customize the diagram further by using different Mermaid syntax elements. Here's an example of a more complex ER diagram:
+3. Du kan tilpasse diagrammet yderligere ved at bruge forskellige Mermaid-syntakselementer. Her er et eksempel på et mere komplekst ER-diagram:
     
     ```mermaid
     erDiagram
@@ -156,11 +156,11 @@ You can create Entity-Relationship (ER) diagrams using Mermaid syntax in Markdow
 
 Kravet om et feasibility studie indebærer at man undersøger, om ens projekt er muligt at gennemføre. I denne sammenhæng skal du lave et slide deck (diasshow), som skal præsenteres mundtligt i virksomhedsfaget. Her er nogle trin, der kan hjælpe dig med at gennemføre et feasibility studie:
 
-1. Definer problemet: Start med at definere det problem, som dit projekt forsøger at løse.
-2. Identificer målgruppen: Identificer hvem dit projekt henvender sig til, og hvad deres behov og ønsker er.
-3. Identificer konkurrenterne: Identificer konkurrenter og vurder deres styrker og svagheder.
-4. Foretag en SWOT-analyse: Analyser dine egne styrker, svagheder, muligheder og trusler (SWOT) for at vurdere, om dit projekt er realistisk.
-5. Identificer ressourcer og krav: Identificer de ressourcer, du har brug for, og de krav, du skal opfylde, for at gennemføre projektet.
-6. Foretag en risikovurdering: Identificer potentielle risici og udvikl en plan for at håndtere dem.
+1. **Definer problemet:** Start med at definere det problem, som dit projekt forsøger at løse.
+2. **Identificer målgruppen:** Identificer hvem dit projekt henvender sig til, og hvad deres behov og ønsker er.
+3. **Identificer konkurrenterne:** Identificer konkurrenter og vurder deres styrker og svagheder.
+4. **Foretag en SWOT-analyse:** Analyser dine egne styrker, svagheder, muligheder og trusler (SWOT) for at vurdere, om dit projekt er realistisk.
+5. **Identificer ressourcer og krav:** Identificer de ressourcer, du har brug for, og de krav, du skal opfylde, for at gennemføre projektet.
+6. **Foretag en risikovurdering:** Identificer potentielle risici og udvikl en plan for at håndtere dem.
 
-Husk, at et feasibility studie ikke garanterer succes, men det hjælper med at identificere potentielle problemer og risici, og giver dig mulighed for at tage skridt til at minimere dem.
+Husk, at et feasibility studie ikke garanterere success, men det hjælper med at identificere potentielle problemer og risici, og giver dig mulighed for at tage skridt til at minimere dem.
