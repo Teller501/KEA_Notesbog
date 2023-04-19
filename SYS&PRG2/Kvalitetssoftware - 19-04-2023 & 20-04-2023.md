@@ -87,3 +87,34 @@ Database transaktioner er vigtige for et software program, fordi de sikrer datab
 Dette er særligt vigtigt i applikationer, der involverer flere brugere, der samtidig ændrer data i databasen, hvor det er vigtigt at opretholde dataintegriteten og undgå ufuldstændige eller inkonsekvente modifikationer. Ved at bruge database transaktioner kan applikationen sikre, at alle databasemodifikationer udføres som én enhed og enten fuldføres eller rulles tilbage i tilfælde af fejl, hvilket sikrer, at databasen forbliver i en konsistent tilstand.
 
 For yderligere at sikre databasens dataintegritet og konsistens, skal transaktioner opfylde de såkaldte ACID-krav, som står for Atomicity, Consistency, Isolation og Durability. Disse krav sikrer, at databasen altid er i en konsistent tilstand og undgår inkonsekvente data og data-tab i tilfælde af systemfejl.
+
+# Testing
+
+[Testing Level Dynamics: Achieving Confidence From Testing](https://dzone.com/articles/testing-level-dynamics-achieving-confidence-from-t?edition=596292&utm_campaign=&utm_content=How%20does%20SAFe%20differ%20from%20LeSS%3F&utm_medium=email&utm_source=dzone&utm_term=)
+
+Der er to hovedkategorier af test, når det kommer til softwaretestning: *dybde* og *bredde*. Dybde-tests er mere detaljerede og omfattende tests, der normalt udføres manuelt, mens bredde-tests er hurtigere og mere overfladiske tests, der kan udføres automatisk.
+
+Når man vælger at udføre dybde-tests, fokuserer man på at teste et mindre antal funktioner eller aspekter af applikationen meget grundigt. Disse tests er ofte manuelle og kan tage betydelig tid at gennemføre. På den anden side fokuserer man i bredde-tests på at teste så mange funktioner og aspekter som muligt, men på en mere overfladisk måde. Disse tests kan ofte automatiseres og kan udføres meget hurtigt.
+
+Når man vælger at udføre dybde-tests, vælger man normalt at fokusere på de mest kritiske aspekter af applikationen, hvor der er den største risiko for fejl. På den anden side kan bredde-tests udføres på hele applikationen og er derfor velegnede til at fange mindre fejl eller problemer i mindre kritiske områder.
+
+Det er vigtigt at bemærke, at både dybde- og bredde-tests er vigtige og bør anvendes i kombination for at opnå en god testdækning. Dybde-tests kan fange store og kritiske fejl, mens bredde-tests kan fange mindre fejl og sikre, at applikationen fungerer som forventet i forskellige scenarier.
+
+Som en generel regel bør man udføre dybde-tests i starten af en testcyklus, mens man udfører bredde-tests senere i cyklussen. Dette sikrer, at de mest kritiske fejl fanges tidligt, mens mindre kritiske fejl fanges senere.
+
+## Levels of Testing: Speed vs Scope
+
+Når man planlægger en teststrategi, er det vigtigt at overveje både hastighed og omfang af testene. Hastighed refererer til, hvor hurtigt tests kan udføres, mens omfang refererer til, hvor mange tests der kan udføres.
+
+Hvis man har brug for at udføre mange tests i en kort periode, er det vigtigt at vælge tests, der kan udføres hurtigt, selvom det betyder, at man må nøjes med en mindre testdækning. På den anden side, hvis man har mere tid til rådighed, kan man vælge at udføre flere tests, der dækker flere aspekter af applikationen.
+
+Det er vigtigt at finde den rette balance mellem hastighed og omfang af testene, så man kan opnå en god testdækning uden at bruge for meget tid på testning. Det kan også være en god idé at prioritere testene efter deres vigtighed og risiko, så man fokuserer på de mest kritiske tests først.
+
+Der findes fire hovedtyper af softwaretests: unit-tests, integrationstests, systemtests og acceptancetests.
+
+- **Unit-tests** er tests af de mindste dele af koden, såsom individuelle metoder eller funktioner. Disse tests udføres normalt automatisk og er hurtige og billige at udføre. Unit-tests er vigtige for at sikre, at koden fungerer som forventet i mindste detalje.
+- **Integrationstests** tester, hvordan forskellige dele af koden fungerer sammen. De kan udføres på forskellige niveauer, f.eks. integration af klasser, komponenter eller systemer. Formålet med integrationstests er at identificere fejl eller uoverensstemmelser i samspillet mellem forskellige dele af koden.
+- **Systemtests** er tests af hele systemet, inklusive brugergrænsefladen og alle dets funktioner. Disse tests udføres normalt manuelt og er mere omfattende end unit-tests og integrationstests. Formålet med systemtests er at identificere fejl eller mangler i systemet som helhed.
+- **Acceptancetests** er tests, der udføres for at sikre, at systemet opfylder kundens krav og forventninger. Disse tests kan udføres manuelt eller automatisk og er normalt sidste trin i testprocessen, før systemet frigives til kunden. Formålet med acceptancetests er at sikre, at systemet fungerer som forventet og opfylder de krav og forventninger, som kunden har angivet.
+
+Det er vigtigt at udføre alle fire typer tests for at sikre en høj kvalitet af softwaren. Unit-tests og integrationstests kan udføres tidligt i udviklingsprocessen for at identificere fejl eller uoverensstemmelser tidligt og spare tid og ressourcer senere i processen. Systemtests og acceptancetests udføres normalt senere i processen, når systemet er mere stabilt og klar til at blive testet som en helhed.
